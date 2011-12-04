@@ -1,0 +1,17 @@
+- requires python 2.6.2
+
+- requires AmFast
+    http://pypi.python.org/pypi/AmFast/
+    python setup.py install
+
+apt-get install python
+apt-get install python-dev
+apt-get install python-twisted python-twisted-web 
+
+wget http://sourceforge.net/projects/mysql-python/files/mysql-python-test/1.2.3c1/MySQL_python-1.2.3c1-py2.6-linux-i686.egg/downloadeasy_install *egg
+
+install http://pypi.python.org/pypi/python-daemon/
+
+add tools/update_player.pl to cron
+    * * * * * /home/bml/ftla_base/ftlad/tools/update_player.py
+
